@@ -45,6 +45,7 @@ main {
 }
 
 h1 {
+    text-align: center;
     margin: 30px;
 }
 
@@ -56,7 +57,37 @@ div.paragraph {
     margin: 10px;
 }
 
+main, table {
+    text-align: center;
+}
 
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 30px;
+}
+
+td.right {
+   text-align: right;
+}
+
+tr {
+    height: 30px;
+}
+  
+td {
+    width: 300px;
+    border:1px solid black;
+}
+
+form {
+    text-align: center;
+}
+
+div {
+    padding: 10px;
+}
 
 /* === Slider === */
 

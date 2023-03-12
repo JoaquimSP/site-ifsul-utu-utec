@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <title>Programação Web I</title>
+</head>
+<body>
+    <header>
+        <div class="container-logo">
+           <div class="logo-imagem">
+              <img src="assets/img/logos-removebg-preview.png" alt="Logos IFSul, UTU e UTEC">
+           </div>
+        </div>
+        <div class="menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="disciplinas.html">Disciplinas</a></li>
+              <li><a href="fotos.html">Fotos</a></li>
+              <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </div>
+     </header>    
+
+     <h1>Formulário de inscrição</h1>
+     <form method="POST" action="enviado.html">
+      <div>
+         <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+       </div>
+       
+       <div>
+         <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+       </div>
+
+       <div>
+        <label for="endereco">Endereço:</label>
+       <input type="text" name="endereco" id="endereco">
+      </div>
+
+       <div>
+         <label for="foto">Foto:</label>
+        <input type="file" name="foto" id="foto">
+       </div>
+
+       <div>
+         <button type="submit">Enviar</button>
+       </div>
+     </form>  
+</body>
+</html>
