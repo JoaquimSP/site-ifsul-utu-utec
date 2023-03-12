@@ -89,7 +89,26 @@ div {
     padding: 10px;
 }
 
-/* === Slider === */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a {
+  color: #3ddc84;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+footer {
+    background-color: #0d701f;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 0.1px;
+}
+
+/* ===== Slider ===== */
 
 .slider {
     margin: 0 auto;
